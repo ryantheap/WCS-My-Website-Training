@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(235, 235, 235);
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */
+
+#header {
+    display: block;
+    background-color: rgb(91, 136, 167);
+    border-bottom: 4px rgb(41, 77, 100) solid;
+}
+
+#header nav ul {
+    display: flex;
+}
+
+#header nav ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+#header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#header nav ul li a:hover>#header nav ul li {
+    background-color: red;
+}
+
+#header nav ul li:first-child {
+    list-style: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+}
+
+/* HOME */
+
+#hero {
+    padding: 100px;
+    background-image: url("images/hero-bg1.png");
+}
+
+#hero h1 {
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(131, 166, 189, 0.521);
+    color: rgb(7, 30, 46);
+    padding: 12px;
+    border-radius: 6px;
+}
